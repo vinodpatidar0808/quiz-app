@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    >
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+            </i></a>
+        <p>Time: <span
+                id="timer"
+                class="invisible"
+            >50</span></p>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- <div class="all-done">
+                <h2>All done!</h2>
+                <p>Your final score is <span>9</span>.</p>
+                <div id="initial-box">
+                    <p>Enter initials: <input
+                            type="text"
+                            id="initial-input"
+                        > <button
+                            class="btn"
+                            id="initial-submit"
+                        >Submit</button></p>
+                    <span class="msg hidden">Please enter a non-empty initial</span>
+                </div>
+            </div> -->
+            
+            <div id="start-container">
+                <h2>Coding Quiz Challenge</h2>
+                <p>Try to answer to following code-related questions within the time limit.</p>
+                <p>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+                <button class="btn start-btn">Start Quiz</button>
+            </div>
+
+            <div
+                id="question-container"
+                class="hidden"
+            >
+                <h2 id="question">Commonly used data types DO NOT include:</h2>
+                <p
+                    id="option-1"
+                    class="option"
+                >1. strings</p>
+                <p
+                    id="option-2"
+                    class="option"
+                >1. strings</p>
+                <p
+                    id="option-3"
+                    class="option"
+                >1. strings</p>
+                <p
+                    id="option-4"
+                    class="option"
+                >1. strings</p>
+                <hr class="rule hidden">
+                <p class="answer hidden">Answer</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
