@@ -65,7 +65,7 @@ h2{
 
 p{
     margin: 1.4rem 1rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .btn{
@@ -91,14 +91,6 @@ input{
     position: relative;
 }
 
-.msg{
-    margin: 1.4rem 1rem;
-    font-size: 1.2rem;
-    color : red;
-    position: absolute;
-    top: 60%;
-
-}
 
 .option{
     color: white;
@@ -124,4 +116,30 @@ hr{
 
 .invisible{
     opacity: 0;
+}
+
+/* media queries */
+
+@media (max-width:850px) {
+    .container{
+        max-width: 90vw;
+    }
+}
+
+@media (max-width:600px) {
+    .container{
+        padding: 4rem 2rem;
+    }
+}
+
+
+@media (max-width: 400px){
+    h2{
+        margin-top: 0;
+        margin-bottom: 1rem;
+
+    }
+    header{
+        padding: .4rem 2rem;
+    }
 }
